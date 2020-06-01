@@ -22,9 +22,9 @@ function App() {
     <>
       <TopNav name="SPA Interaction Demo"/>      
       <Container>
-        <Router history={history} basename="/spa1">
+        <Router history={history} basename="/spa2">
           <Box>
-            <h2>Welcome to SPA 1</h2>
+            <h2>Welcome to SPA 2</h2>
             <br/>
             <Menu/>
             <Box paddingTop="1em">
